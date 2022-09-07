@@ -1,1 +1,2 @@
-# PY7QFH__XMLGyak
+# Adatkezelés XML környezetben
+Varga-Molnár Bertalan | PY7QFH gyakorlati órai előrehaladása
