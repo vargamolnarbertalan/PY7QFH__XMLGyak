@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PY7QFH_konferencia>
+	<konferencia id="konfid01">
+		<cim>Vision Mixers and Stream Engineers</cim>
+		<helyszin>Antenna út 5.</helyszin>
+		<dátum>2022.10.05.</dátum>
+		<előadó>
+			<név>Bence Dániel</név>
+			<adószám>2012312341254</adószám>
+			<lakcím>1111 Budapest, Vénégy utca 4.</lakcím>
+		</előadó>
+		<hallgatók>
+			<hallgató id="hid01">
+				<név>Példa Hallgató</név>
+				<név>1000 Példa lakcím 1.</név>
+			</hallgató>
+			<hallgató id="hid02">
+				<név>Példa Hallgatóné</név>
+				<név>1000 Példa lakcím 2.</név>
+			</hallgató>
+		</hallgatók>
+	</konferencia>
+</PY7QFH_konferencia>

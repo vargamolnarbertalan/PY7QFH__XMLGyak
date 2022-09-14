@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mozi>
+	<film id="txn_nxm_2jb" mufaj="horror">
+		<rendezo id="nzk_4xm_2jb" nev="alex"/>
+		<szinesz>
+			<gyerekszinesz id="gyszid_01" nev="Aladin"/>
+			<musicalszinesz id="mszid_01" nev="Bertold"/>
+			<szinkronszinesz id="szszid_01" nev="Cecilia"/>
+		</szinesz>		
+		<iro id="trv_4xm_2jb"/>
+	</film>
+	<film id="flimid_01" mufaj="vigjatek">
+		<producer id="prodid_01" nev="Daniel"/>
+		<dramaturg id="did_01" nev="Elek"/>
+		<operator id="opid_01" nev="Francois"/>
+	</film>
+	
+</mozi>

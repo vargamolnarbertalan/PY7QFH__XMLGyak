@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PY7QFH_orarend>
+	<ora id="oraid_01" tipus="elmélet">
+		<targy>Adatkezelés XML környezetben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>10:00</tol>
+			<ig>11:30</ig>
+		</idopont>
+		<helyszin>XXXII. ea.</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>Programtervező Informatikus</szak>
+	</ora>
+	<ora id="oraid_02" tipus="gyakorlat">
+		<targy>Adatkezelés XML környezetben</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>10:00</tol>
+			<ig>11:30</ig>
+		</idopont>
+		<helyszin>Infó/101</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>Programtervező Informatikus</szak>
+	</ora>
+	<ora id="oraid_03" tipus="gyakorlat">
+		<targy>Vállalati információs rendszerek fejlesztése</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>16:00</tol>
+			<ig>19:00</ig>
+		</idopont>
+		<helyszin>Infó/103</helyszin>
+		<oktato>Dr. Sasvári Péter</oktato>
+		<szak>Programtervező Informatikus</szak>
+	</ora>
+
+</PY7QFH_orarend>
