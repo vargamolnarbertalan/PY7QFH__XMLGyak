@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE VMB_kurzusfelvetel SYSTEM "kurzusfelvetel.dtd">
+<VMB_kurzusfelvetel tanev="2022_2023 I." egyetem="ME">
+	<hallgato id="KPRLNM.ME">
+		<hnev>Kovács János</hnev>
+		<szulev>2004-04-05</szulev>
+		<szak evf="5">Programtervezo informatikus</szak>
+	</hallgato>
+	<kurzusok>
+		<kurzus id="GEIAL332-B">
+			<kurzusnev>Adatkezeles XML kornyezetben</kurzusnev>
+			<kredit>5</kredit>
+			<hely>XXXII.</hely>
+			<idopont>Kedd 12:00-13:30</idopont>
+			<oktato>Dr. Bednarik Laszlo</oktato>
+		</kurzus>
+		<kurzus id="GEIAL332-B" jovahagyas="igen">
+			<kurzusnev>Adatbázis rendszerek I.</kurzusnev>
+			<kredit>5</kredit>
+			<hely>In101</hely>
+			<idopont>Kedd 08:00-09:30</idopont>
+			<oktato>Dr. Kovacs Laszlo</oktato>
+		</kurzus>
+		<kurzus id="GEIAL333-B" nyelv="angol">
+			<kurzusnev>Webalkalmazas fejlesztes-Java</kurzusnev>
+			<kredit>5</kredit>
+			<hely>In103</hely>
+			<idopont>Csütörtök 08:00-09:30</idopont>
+			<oktato>Dr. Barabas Peter</oktato>
+			<oraado>Toth Bence</oraado>
+		</kurzus>
+	</kurzusok>
+</VMB_kurzusfelvetel>
