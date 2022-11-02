@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="1">
+		<firstname>Aladár</firstname>
+		<lastname>Almás</lastname>
+		<profession>Asztalos</profession>
+	</user>
+	<user id="2">
+		<firstname>Béla</firstname>
+		<lastname>Bocskai</lastname>
+		<profession>Sofőr</profession>
+	</user>
+	<user id="3">
+		<firstname>Cecil</firstname>
+		<lastname>Cinege</lastname>
+		<profession>Hentes</profession>
+	</user>
+</users>
