@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "studentPY7QFH.xsl"?>
+<class>
+   <student id="01">
+      <keresztnev>Bertalan</keresztnev>
+      <vezeteknev>Varga-Molnár</vezeteknev>
+      <becenev>Berci</becenev>
+      <kor>22</kor>
+      <osztondij>21000</osztondij>
+   </student>
+   <student id="02">
+      <keresztnev>Aladár</keresztnev>
+      <vezeteknev>Asztalos</vezeteknev>
+      <becenev>Ali</becenev>
+      <kor>19</kor>
+      <osztondij>520000</osztondij>
+   </student>
+   <student id="03">
+      <keresztnev>Béla</keresztnev>
+      <vezeteknev>Bozsik</vezeteknev>
+      <becenev>Bélus</becenev>
+      <kor>23</kor>
+      <osztondij>450000</osztondij>
+   </student>
+</class>
