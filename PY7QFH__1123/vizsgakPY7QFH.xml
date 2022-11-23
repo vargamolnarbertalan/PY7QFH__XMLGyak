@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root id='PY7QFH'>
+  <vizsgak>
+    <vizsga>
+      <kurzus>GEIMAL-15</kurzus>
+      <helyszin>A/4. 205.</helyszin>
+      <idopont>
+        <nap>hétfő</nap>
+        <tol>10</tol>
+        <ig>12</ig>
+      </idopont>
+      <oktato>Példa Professzor</oktato>
+      <jegy>3</jegy>
+    </vizsga>
+    <vizsga>
+      <kurzus>GEMIAL-10</kurzus>
+      <helyszin>A/3. 105.</helyszin>
+      <idopont>
+        <nap>kedd</nap>
+        <tol>8</tol>
+        <ig>10</ig>
+      </idopont>
+      <oktato>Tanár Tamás</oktato>
+      <jegy>5</jegy>
+    </vizsga>
+    <vizsga>
+      <kurzus>GEIMAL-16</kurzus>
+      <helyszin>XXIII. ea.</helyszin>
+      <idopont>
+        <nap>péntek</nap>
+        <tol>14</tol>
+        <ig>16</ig>
+      </idopont>
+      <oktato>Oltári Oktató</oktato>
+      <jegy>4</jegy>
+    </vizsga>
+  </vizsgak>
+</root>

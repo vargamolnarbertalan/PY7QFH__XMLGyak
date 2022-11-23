@@ -1,0 +1,40 @@
+{
+   "_id":"PY7QFH",
+   "vizsgak":{
+      "vizsga":[
+         {
+            "kurzus":"GEIMAL-15",
+            "helyszin":"A/4. 205.",
+            "idopont":{
+               "nap":"hétfő",
+               "tol":"10",
+               "ig":"12"
+            },
+            "oktato":"Példa Professzor",
+            "jegy":"3"
+         },
+         {
+            "kurzus":"GEMIAL-10",
+            "helyszin":"A/3. 105.",
+            "idopont":{
+               "nap":"kedd",
+               "tol":"8",
+               "ig":"10"
+            },
+            "oktato":"Tanár Tamás",
+            "jegy":"5"
+         },
+         {
+            "kurzus":"GEIMAL-16",
+            "helyszin":"XXIII. ea.",
+            "idopont":{
+               "nap":"péntek",
+               "tol":"14",
+               "ig":"16"
+            },
+            "oktato":"Oltári Oktató",
+            "jegy":"4"
+         }
+      ]
+   }
+}
