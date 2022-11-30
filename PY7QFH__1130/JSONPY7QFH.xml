@@ -1,0 +1,15 @@
+<student>
+    <nev>Varga-Molnár Bertalan</nev>
+    <neptunkod>PY7QFH</neptunkod>
+    <szak>GÉIK-PI</szak>
+</student>
+
+<!-- 
+    {
+    "student": {
+      "nev": "Varga-Molnar Bertalan",
+      "neptunkod": "PY7QFH",
+      "szak": "GEIK-PI"
+    }
+}
+-->
