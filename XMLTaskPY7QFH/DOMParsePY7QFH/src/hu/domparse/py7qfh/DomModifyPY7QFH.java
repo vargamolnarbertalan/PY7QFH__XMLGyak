@@ -30,7 +30,7 @@ public class DomModifyPY7QFH {
         Document doc = documentBuilder.parse(inputFile);
         doc.getDocumentElement().normalize();
 
-        // második személygépjármű attribútumának módosítása
+        // masodik szemelygepjarmu attributumanak modositasa
         Node jarmu = doc.getElementsByTagName("szemelygepjarmu").item(1);
 
         NamedNodeMap attr = jarmu.getAttributes();
@@ -38,7 +38,7 @@ public class DomModifyPY7QFH {
         nodeAttr.setTextContent("CFN-213");
         System.out.println("szemelygepjarmu attributum modositva");
 
-        // első tulajdonos attribútumának módosítása
+        // elso tulajdonos attributumanak modositasa
         Node tulaj = doc.getElementsByTagName("tulajdonos").item(0);
 
         attr = tulaj.getAttributes();
@@ -47,7 +47,7 @@ public class DomModifyPY7QFH {
 
         System.out.println("tulajdonos attributum modositva");
 
-        // összes matrica beállitása van-ra
+        // osszes matrica beallitasa van-ra
 
         NodeList nodes = doc.getElementsByTagName("karosszeria");
 
@@ -67,7 +67,7 @@ public class DomModifyPY7QFH {
         }
         System.out.println("matrica modositasok kesz");
 
-        // összes benzines motor átállitása hibridre
+        // osszes benzines motor atallitasa hibridre
 
         nodes = doc.getElementsByTagName("motor");
 
@@ -94,7 +94,7 @@ public class DomModifyPY7QFH {
             doc.renameNode(nodes.item(i), null, "evjarat");
         }
         System.out.println("gyartasi_ev atnevezeve evjaratra");
-
+        
         // modositott xml dokumentum elmentese 
         writeXml(doc, new File("XMLPY7QFH2.xml"));
 

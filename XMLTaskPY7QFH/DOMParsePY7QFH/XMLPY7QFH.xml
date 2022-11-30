@@ -31,15 +31,15 @@
 
     <tulajdonos jogositvany_szama="HU345678">
         <nev>
-            <vezeteknev>Példa</vezeteknev>
-            <keresztnev>Aladár</keresztnev>
+            <vezeteknev>Pelda</vezeteknev>
+            <keresztnev>Aladar</keresztnev>
         </nev>
     </tulajdonos>
 
     <tulajdonos jogositvany_szama="HU346544">
         <nev>
-            <vezeteknev>Molnár</vezeteknev>
-            <keresztnev>Jolán</keresztnev>
+            <vezeteknev>Molnar</vezeteknev>
+            <keresztnev>Jolan</keresztnev>
         </nev>
     </tulajdonos>
 
@@ -53,7 +53,7 @@
     <!-- motorok -->
 
     <motor motorszam="100FDSAF008F1G">
-        <uzemanyag>dízel</uzemanyag>
+        <uzemanyag>dizel</uzemanyag>
         <loero>68</loero>
         <nyomatek>160 Nm</nyomatek>
     </motor>
@@ -75,18 +75,18 @@
     <karosszeria alvazszam="0FSFDSFFF70000019">
         <felulet>matt</felulet>
         <matrica>nincs</matrica>
-        <szin>fehér</szin>
+        <szin>feher</szin>
         <szin>szürke</szin>
     </karosszeria>
 
     <karosszeria alvazszam="0FSFDSCCC70000019">
         <felulet>teljes</felulet>
         <matrica>van</matrica>
-        <szin>fehér</szin>        
+        <szin>feher</szin>        
     </karosszeria>
 
     <karosszeria alvazszam="3HSFDSCCC70000019">
-        <felulet>részleges</felulet>
+        <felulet>reszleges</felulet>
         <matrica>nincs</matrica>
         <szin>zöld</szin> 
         <szin>fekete</szin>

@@ -18,12 +18,12 @@ import org.xml.sax.SAXException;
 public class DomReadPY7QFH {
 
     public static void main(String argv[]) throws ParserConfigurationException, SAXException, IOException {
-
+    	
         // Adatok kiirasa console-ra
 
         Feldolgozas();
 
-        // Adatok mentése TXT-be
+        // Adatok mentese TXT-be
 
         PrintStream out = new PrintStream(new FileOutputStream("XML_Parse_output.txt"));
         System.setOut(out);
@@ -32,7 +32,7 @@ public class DomReadPY7QFH {
 
     }
 
-    private static void Feldolgozas() throws ParserConfigurationException, SAXException, IOException {
+    public static void Feldolgozas() throws ParserConfigurationException, SAXException, IOException {
         File xmlFile = new File("XMLPY7QFH.xml");
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

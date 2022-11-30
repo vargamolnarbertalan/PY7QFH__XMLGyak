@@ -46,45 +46,45 @@ public class DomQueryPY7QFH {
         if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("szemelygepjarmu")) {
           Element element = (Element) node;
 
-          System.out.println("Rendszám: " + element.getAttribute("rendszam"));
+          System.out.println("Rendszam: " + element.getAttribute("rendszam"));
           System.out.println("Tulaj jogsi: " + element.getElementsByTagName("tulaj_jogsi").item(0).getTextContent());
-          System.out.println("Alváz száma: " + element.getElementsByTagName("alvaz_szama").item(0).getTextContent());
-          System.out.println("Motor száma: " + element.getElementsByTagName("motor_szama").item(0).getTextContent());
-          System.out.println("Gyártási szám: " + element.getElementsByTagName("gyartas_sorszam").item(0).getTextContent());
+          System.out.println("Alvaz szama: " + element.getElementsByTagName("alvaz_szama").item(0).getTextContent());
+          System.out.println("Motor szama: " + element.getElementsByTagName("motor_szama").item(0).getTextContent());
+          System.out.println("Gyartasi szam: " + element.getElementsByTagName("gyartas_sorszam").item(0).getTextContent());
         }
 
         if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("tulajdonos")) {
           Element element = (Element) node;
 
-          System.out.println("Jogositvány száma: " + element.getAttribute("jogositvany_szama"));
-          System.out.println("Keresztnév: " + element.getElementsByTagName("keresztnev").item(0).getTextContent());
-          System.out.println("Vezetéknév: " + element.getElementsByTagName("vezeteknev").item(0).getTextContent());
+          System.out.println("Jogositvany szama: " + element.getAttribute("jogositvany_szama"));
+          System.out.println("Keresztnev: " + element.getElementsByTagName("keresztnev").item(0).getTextContent());
+          System.out.println("Vezeteknev: " + element.getElementsByTagName("vezeteknev").item(0).getTextContent());
         }
 
         if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("motor")) {
           Element element = (Element) node;
 
-          System.out.println("Motor száma: " + element.getAttribute("motorszam"));
-          System.out.println("Üzemanyag: " + element.getElementsByTagName("uzemanyag").item(0).getTextContent());
-          System.out.println("Lóerő: " + element.getElementsByTagName("loero").item(0).getTextContent());
-          System.out.println("Nyomaték: " + element.getElementsByTagName("nyomatek").item(0).getTextContent());
+          System.out.println("Motor szama: " + element.getAttribute("motorszam"));
+          System.out.println("Uzemanyag: " + element.getElementsByTagName("uzemanyag").item(0).getTextContent());
+          System.out.println("Loero: " + element.getElementsByTagName("loero").item(0).getTextContent());
+          System.out.println("Nyomatek: " + element.getElementsByTagName("nyomatek").item(0).getTextContent());
         }
 
         if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("karosszeria")) {
           Element element = (Element) node;
 
-          System.out.println("Alvázszám: " + element.getAttribute("alvazszam"));
-          System.out.println("Felület: " + element.getElementsByTagName("felulet").item(0).getTextContent());
+          System.out.println("Alvazszam: " + element.getAttribute("alvazszam"));
+          System.out.println("Felulet: " + element.getElementsByTagName("felulet").item(0).getTextContent());
           System.out.println("Matrica: " + element.getElementsByTagName("matrica").item(0).getTextContent());
-          System.out.println("Elsődleges szin: " + element.getElementsByTagName("szin").item(0).getTextContent());
+          System.out.println("Elsodleges szin: " + element.getElementsByTagName("szin").item(0).getTextContent());
         }
         if (node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("gyartas")) {
           Element element = (Element) node;
 
           System.out.println("ID: " + element.getAttribute("gyartasID"));
-          System.out.println("Márka: " + element.getElementsByTagName("marka").item(0).getTextContent());
+          System.out.println("Marka: " + element.getElementsByTagName("marka").item(0).getTextContent());
           System.out.println("Modell: " + element.getElementsByTagName("modell").item(0).getTextContent());
-          System.out.println("Gyártási év: " + element.getElementsByTagName("gyartasi_ev").item(0).getTextContent());
+          System.out.println("Gyartasi ev: " + element.getElementsByTagName("gyartasi_ev").item(0).getTextContent());
         }
       }
 

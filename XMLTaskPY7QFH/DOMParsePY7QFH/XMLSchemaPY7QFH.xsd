@@ -2,21 +2,21 @@
 
     <!--Egyszerű elemek-->
  
-    <xs:element name="tulaj_jogsi" type="jogositvany_szama_tipus"/>
-    <xs:element name="motor_szama" type="motorszam_tipus"/>
-    <xs:element name="alvaz_szama" type="alvazszam_tipus"/>
-    <xs:element name="gyartas_sorszam" type="gyartoID_tipus"/>
+    <xs:element name="tulaj_jogsi" type="jogositvany_szamaTipus"/>
+    <xs:element name="motor_szama" type="motorszamTipus"/>
+    <xs:element name="alvaz_szama" type="alvazszamTipus"/>
+    <xs:element name="gyartas_sorszam" type="gyartoIDTipus"/>
     <xs:element name="casco_azon" type="xs:string"/>
     
     <xs:element name="vezeteknev" type="xs:string"/>
     <xs:element name="keresztnev" type="xs:string"/>
 
-    <xs:element name="uzemanyag" type="uzemanyag_tipus"/>
+    <xs:element name="uzemanyag" type="uzemanyagTipus"/>
     <xs:element name="loero" type="xs:string"/>
     <xs:element name="nyomatek" type="xs:string"/>
 
-    <xs:element name="felulet" type="felulet_tipus"/>
-    <xs:element name="matrica" type="matrica_tipus"/>
+    <xs:element name="felulet" type="feluletTipus"/>
+    <xs:element name="matrica" type="matricaTipus"/>
     <xs:element name="szin" type="xs:string"/>
 
     <xs:element name="marka" type="xs:string"/>
@@ -25,49 +25,49 @@
 
     <!--Saját típusok-->
 
-    <xs:simpleType name="rendszam_tipus">
+    <xs:simpleType name="rendszamTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="[A-Z][A-Z][A-Z]-[0-9][0-9][0-9]"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="jogositvany_szama_tipus">
+    <xs:simpleType name="jogositvany_szamaTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="motorszam_tipus">
+    <xs:simpleType name="motorszamTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="[A-Z0-9]{14}"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="uzemanyag_tipus">
+    <xs:simpleType name="uzemanyagTipus">
         <xs:restriction base="xs:string">
-            <xs:pattern value="benzin|dízel|hibrid|elektromos"/>
+            <xs:pattern value="benzin|dizel|hibrid|elektromos"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="alvazszam_tipus">
+    <xs:simpleType name="alvazszamTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="[A-Z0-9]{17}"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="felulet_tipus">
+    <xs:simpleType name="feluletTipus">
         <xs:restriction base="xs:string">
-            <xs:pattern value="matt|részleges|teljes"/>
+            <xs:pattern value="matt|reszleges|teljes"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="matrica_tipus">
+    <xs:simpleType name="matricaTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="van|nincs"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="gyartoID_tipus">
+    <xs:simpleType name="gyartoIDTipus">
         <xs:restriction base="xs:string">
             <xs:pattern value="[0-9][0-9][A-Z]"/>
         </xs:restriction>
@@ -88,7 +88,7 @@
                             <xs:element ref="gyartas_sorszam" />
                             <xs:element ref="casco_azon" minOccurs="0"/>
                         </xs:sequence>
-                        <xs:attribute name="rendszam" type="rendszam_tipus" use="required"/>
+                        <xs:attribute name="rendszam" type="rendszamTipus" use="required"/>
                     </xs:complexType>
                 </xs:element>
 
@@ -104,7 +104,7 @@
                             </xs:complexType>  
                             </xs:element>                        
                         </xs:sequence>
-                        <xs:attribute name="jogositvany_szama" type="jogositvany_szama_tipus" use="required"/>
+                        <xs:attribute name="jogositvany_szama" type="jogositvany_szamaTipus" use="required"/>
                     </xs:complexType>
                 </xs:element>
 
@@ -115,7 +115,7 @@
                             <xs:element ref="loero" />
                             <xs:element ref="nyomatek" />
                         </xs:sequence>
-                        <xs:attribute name="motorszam" type="motorszam_tipus" use="required"/>
+                        <xs:attribute name="motorszam" type="motorszamTipus" use="required"/>
                     </xs:complexType>
                 </xs:element>
 
@@ -126,7 +126,7 @@
                             <xs:element ref="matrica" />
                             <xs:element ref="szin" maxOccurs="unbounded"/>
                         </xs:sequence>
-                        <xs:attribute name="alvazszam" type="alvazszam_tipus" use="required"/>
+                        <xs:attribute name="alvazszam" type="alvazszamTipus" use="required"/>
                     </xs:complexType>
                 </xs:element>
 
@@ -137,7 +137,7 @@
                             <xs:element ref="modell" />   
                             <xs:element ref="gyartasi_ev" />                         
                         </xs:sequence>
-                        <xs:attribute name="gyartasID" type="gyartoID_tipus" use="required"/>
+                        <xs:attribute name="gyartasID" type="gyartoIDTipus" use="required"/>
                     </xs:complexType>
                 </xs:element>
                 
@@ -192,6 +192,12 @@
             <xs:selector xpath="szemelygpjarmu" />
             <xs:field xpath="gyartas_sorszam" />
         </xs:keyref>
+
+        <!-- 1-1 kapcsolat -->
+        <xs:unique name="uniqueMotor">
+            <xs:selector xpath="motor"/>
+            <xs:field xpath="@motorszam"/>
+        </xs:unique>
 
     </xs:element>
 

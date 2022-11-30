@@ -26,13 +26,13 @@ Casco azonosito: nincs
 
 Current element: tulajdonos
 Jogositvany szama: HU345678
-Vezeteknev: Példa
-Keresztnev: Aladár
+Vezeteknev: Pelda
+Keresztnev: Aladar
 
 Current element: tulajdonos
 Jogositvany szama: HU346544
-Vezeteknev: Molnár
-Keresztnev: Jolán
+Vezeteknev: Molnar
+Keresztnev: Jolan
 
 Current element: tulajdonos
 Jogositvany szama: RO378544
@@ -41,7 +41,7 @@ Keresztnev: Adrian
 
 Current element: motor
 Motorszam: 100FDSAF008F1G
-Uzemamyag: dízel
+Uzemamyag: dizel
 Loero: 68
 Nyomatek: 160 Nm
 
@@ -61,18 +61,18 @@ Current element: karosszeria
 Alvazszam: 0FSFDSFFF70000019
 Felulet: matt
 Matrica: nincs
-Szin #1: fehér
+Szin #1: feher
 Szin #2: szürke
 
 Current element: karosszeria
 Alvazszam: 0FSFDSCCC70000019
 Felulet: teljes
 Matrica: van
-Szin #1: fehér
+Szin #1: feher
 
 Current element: karosszeria
 Alvazszam: 3HSFDSCCC70000019
-Felulet: részleges
+Felulet: reszleges
 Matrica: nincs
 Szin #1: zöld
 Szin #2: fekete
